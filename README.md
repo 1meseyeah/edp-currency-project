@@ -20,10 +20,10 @@ Welcome to the Event-Driven Trading System! This project implements an event-dri
 
 ## FEATURES ✨
 
-- **Price Updates** 📈: The `Exchange` class sends random price updates for cryptocurrency symbols.
-- **Trade Orders** 💸: The `Trader` class can place buy/sell orders which are handled by the `TradeEngine`.
-- **Stop-Loss** ⚠️: Traders can set stop-loss orders to sell automatically if the price drops below a certain threshold.
-- **Event System** 🔄: The `EventDispatcher` class listens to and handles various events (e.g., price updates, trade notifications).
-- **Trade History** 📜: The `TradeEngine` stores and displays a history of executed trades.
+- **Price Updates** : The `Exchange` class sends random price updates for cryptocurrency symbols.
+- **Trade Orders** : The `Trader` class can place buy/sell orders which are handled by the `TradeEngine`.
+- **Stop-Loss** : Traders can set stop-loss orders to sell automatically if the price drops below a certain threshold.
+- **Event System** : The `EventDispatcher` class listens to and handles various events (e.g., price updates, trade notifications).
+- **Trade History** : The `TradeEngine` stores and displays a history of executed trades.
 
 ---
