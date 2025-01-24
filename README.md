@@ -1,20 +1,29 @@
-Event-Driven Trading System
+# Event-Driven Trading System
 
-This project implements an event-driven trading system using Python. It simulates the basic components of a trading platform, where events like price updates, trade orders, and trade executions are dispatched and handled through listeners. The system is composed of several classes that handle different events and interactions between the trader, trade engine, and exchange.
+![Trading System Banner](https://via.placeholder.com/1200x300.png?text=Event-Driven+Trading+System)
 
-Project Overview
+Welcome to the Event-Driven Trading System! This project implements an event-driven trading platform using Python, simulating the core components of a trading system with real-time events like price updates, trade orders, and executions.
 
-Key Components:
-Event: A base class for all events in the system.
-EventDispatcher: A central dispatcher that manages the events and dispatches them to the appropriate listeners.
-Exchange: Simulates a stock or cryptocurrency exchange that generates random price updates and dispatches them to listeners.
-Trader: Represents a trader who places buy/sell orders and can set stop-loss orders. The trader receives notifications about trades and price updates.
-TradeEngine: Processes buy/sell orders and stores the trade history. It executes trades based on incoming orders.
-Events: Events like TradeOrderEvent, TradeExecutedEvent, and TradeNotificationEvent are dispatched and handled as part of the system’s operation.
-Features
+---
 
-Price Updates: The Exchange class sends random price updates for cryptocurrency symbols.
-Trade Orders: The Trader class can place buy/sell orders, which are handled by the TradeEngine.
-Stop-Loss: Traders can set stop-loss orders to automatically sell if the price drops below a certain threshold.
-Event System: The EventDispatcher class listens to and handles various events, such as price updates and trade notifications.
-Trade History: The TradeEngine stores and displays a history of executed trades.
+## PROJECT OVERVIEW
+
+### Key Components:
+- **Event**: A base class for all events in the system.
+- **EventDispatcher**: The central dispatcher that manages events and sends them to listeners.
+- **Exchange**: Simulates a cryptocurrency exchange that generates random price updates.
+- **Trader**: Represents a trader who places buy/sell orders and sets stop-loss orders.
+- **TradeEngine**: Executes trades and stores trade history.
+- **Events**: Key events like `TradeOrderEvent`, `TradeExecutedEvent`, and `TradeNotificationEvent` are dispatched and processed.
+
+---
+
+## FEATURES ✨
+
+- **Price Updates** 📈: The `Exchange` class sends random price updates for cryptocurrency symbols.
+- **Trade Orders** 💸: The `Trader` class can place buy/sell orders which are handled by the `TradeEngine`.
+- **Stop-Loss** ⚠️: Traders can set stop-loss orders to sell automatically if the price drops below a certain threshold.
+- **Event System** 🔄: The `EventDispatcher` class listens to and handles various events (e.g., price updates, trade notifications).
+- **Trade History** 📜: The `TradeEngine` stores and displays a history of executed trades.
+
+---
