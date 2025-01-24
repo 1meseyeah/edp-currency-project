@@ -1,6 +1,5 @@
 # Event-Driven Trading System
 
-![Trading System Banner](https://via.placeholder.com/1200x300.png?text=Event-Driven+Trading+System)
 
 Welcome to the Event-Driven Trading System! This project implements an event-driven trading platform using Python, simulating the core components of a trading system with real-time events like price updates, trade orders, and executions.
 
@@ -27,4 +26,3 @@ Welcome to the Event-Driven Trading System! This project implements an event-dri
 - **Trade History** 📜: The `TradeEngine` stores and displays a history of executed trades.
 
 ---
->>>>>>> 506b67d (Editing Readme)
